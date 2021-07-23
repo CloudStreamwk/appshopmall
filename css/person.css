@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+	-webkit-tap-highlight-color: transparent
+}
+.person{
+	width: 100%;
+	position: relative;
+}
+
+.top {
+	height: 100px;
+	line-height: 100px;
+	width: 100%;
+	color: #fff;
+	font-family: "黑体";
+	font-weight: 200;
+	font-size: 50px;
+	text-align: center;
+	/*背景色渐变*/
+	background: linear-gradient(to bottom right, #F56739, #FB9749);
+}
+.head{
+	height: 250px;
+	width: 100%;
+	background-color: rgb(242,242,242);
+	display: inherit;
+}
+.head > img {
+	display: inherit;
+	height: 250px
+	width: 100%;
+	/*去除 */
+	-webkit-tap-highlight-color: gray;
+	float: left;
+	padding: 50px;
+}
+
+.head > span {
+	width: 100%;
+	display: inherit;
+	font-size: 4em;
+	line-height: 250px;
+	font-family: "微软雅黑";
+}
+
+.main {
+	padding: 10px;
+	height: 70%;
+	width: 100%;
+}
+.item{
+	display: flex;
+	height: 120px;
+	line-height: 120px;
+	border: 1px solid gainsboro;
+}
+.item_img{
+	height: 100px;
+	bottom: 0px;
+	margin-right: 30px;
+}
+.item_right{
+	margin-top: 20px;
+}
+.item_text{
+	font-size: 40px;
+	flex:1;
+}
+.footer {
+	width: 100%;
+	background: #fff;
+	border: 1px solid gainsboro;
+}
+.footer_box {
+	display: block;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	color: #474747;
+	padding-top: 10px;
+	border-top: 1px solid #eee;
+	background-color: #fff;
+}
+
+.footer_menu {
+	width: 25%;
+	float: left;
+	cursor: pointer;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.footer_text {
+	font-size: 35px;
+	height: 30px;
+	width: 100%;
+	line-height: 30px;
+	text-align: center;
+}
